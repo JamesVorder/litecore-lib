@@ -547,7 +547,7 @@ describe('Address', function() {
 
     it('can create an address from a set of public keys with a nested witness program', function() {
       var address = Address.createMultisig(publics, 2, Networks.livenet, true);
-      address.toString().should.equal('3PpK1bBqUmPK3Q6QPSUK7BQSZ1DMWL6aes');
+      address.toString().should.equal('MW2TKUboRtEjquNJVKTevpeqshooZH8f6L');
     });
 
     it('can also be created by Address.createMultisig', function() {
